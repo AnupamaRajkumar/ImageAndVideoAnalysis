@@ -23,20 +23,14 @@ int main(int argc, char** argv)
 	}
 
 	std::cout << "Load input image" << endl;
-	Mat img = imread(argv[1], IMREAD_COLOR);
-	
-	/*filtering to smooth out noise*/
-	int kSize = 3;
-	Mat kernel = Mat(kSize, kSize, img.type());
-	Mat filtImg = Mat::zeros(img.size(), img.type());
-	GaussianBlur(img, filtImg, kernel.size(), 0, 0);
+	Mat img = imread(argv[1]);
 
 	/*convert image to grayscale if not already grayscale*/
-	if (filtImg.channels() > 1) {
-		cv::cvtColor(filtImg, filtImg, cv::COLOR_BGR2GRAY);
+	if (img.channels() > 1) {
+		cv::cvtColor(img, img, cv::COLOR_BGR2GRAY);
 	}
 	
-	ed.prewittFiltering(filtImg);
+	ed.prewittFiltering(img);
 
 	cout << "Filtering completed";
 

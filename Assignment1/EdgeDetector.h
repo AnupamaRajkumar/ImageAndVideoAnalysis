@@ -12,8 +12,6 @@ using namespace cv;
 
 class EdgeDetection {
 public:
-	Mat spatialConvolution(Mat& src, Mat& kernel);
-	Mat getBorderedImage(Mat &src, int rowMiddle, int colMiddle);
 	void prewittFiltering(Mat &src);
 	Mat getEdgeMagnitude();
 	Mat nonMaximalSuppression(Mat& grad);

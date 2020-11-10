@@ -5,6 +5,8 @@
 
 #include <iostream>
 #include <map>
+#include <list>
+#include <iterator>
 #include <opencv2/opencv.hpp>
 
 using namespace std;
@@ -20,6 +22,7 @@ private:
 	Mat EdgeDetector();
 	void DrawCircles(map<list<int>, int>& accumulator);
 	void HoughTransform(Mat& edgeImg, map<list<int>, int>& accumulator);
+	void HoughTransformOpenCV(Mat& edgeImg);
 
 };
 #endif // !__HOUGH__

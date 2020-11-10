@@ -12,7 +12,6 @@ int main(int argc, char** argv)
 		return EXIT_FAILURE;
 	}
 	Mat img = imread(argv[1]);
-	//imshow("Input", img);
 	int rmin, rmax;
 	rmin = rmax = 0;
 	cout << "Enter the range of radius ie rmin and rmax" << endl;

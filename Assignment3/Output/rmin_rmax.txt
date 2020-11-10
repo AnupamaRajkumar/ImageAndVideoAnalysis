@@ -1,0 +1,3 @@
+name 		rmin	rmax	threshold
+circles		13	16	0.5
+blood		8	16	0.45

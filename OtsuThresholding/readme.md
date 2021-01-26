@@ -1,0 +1,6 @@
+| | |
+|:-------------------------:|:-------------------------:|
+|<img width="900" alt="BMF_1_7" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/aluminium.png"> Original |<img width="900" alt="BMF_1_14" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/aluminium_Threshold_103.png"> Thresholded |
+|<img width="900" alt="BMF_1_7" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/finger.png"> Original |<img width="900" alt="BMF_1_14" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/finger_Threshold_158.png"> Thresholded |
+|<img width="900" alt="BMF_1_7" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/julia.png"> Original |<img width="900" alt="BMF_1_14" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/julia_Threshold_149.png"> Thresholded |
+|<img width="900" alt="BMF_1_7" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/phobos.png"> Original |<img width="900" alt="BMF_1_14" src="https://github.com/AnupamaRajkumar/ImageAndVideoAnalysis/blob/master/OtsuThresholding/Output/phobos_Threshold_62.png"> Thresholded |
